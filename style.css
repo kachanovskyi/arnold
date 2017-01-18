@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url("images/background.png") center no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+.login-page {
+    width: 560px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.top-heading {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    letter-spacing: 3px;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    max-width: 575px;
+    padding: 45px;
+    text-align: center;
+}
+.form h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px auto;
+}
+.form p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 auto 90px auto;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 300px;
+    height: 60px;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    outline: 0;
+    background: #2F80ED;
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    border: 0;
+    padding: 14px 15px 16px 15px;
+    margin-left: -5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #2374C4;
+}
+.form .success-message {
+    display: inline-block;
+    width: 400px;
+    height: 60px;
+    background: #64DD97;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.form .success-message p {
+    font-size: 18px;
+    margin: 16px;
+}
+.form .error-message {
+    color: #EB5757;
+    display: none;
+    margin-bottom: 0;
+}
+
+@media (max-width: 566px) {
+    .login-page {
+        width: 100%;
+        padding-top: 33%;
+    }
+    .form h1 {
+        font-size: 40px;
+    }
+    .form p {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    .form input {
+        width: 69%;
+        height: 54px;
+        padding: 12px 10px;
+    }
+    .form button {
+        width: 30%;
+        font-size: 16px;
+        height: 54px;
+        padding: 12px;
+    }
+    .form .success-message {
+        width: 99%;
+        height: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    .form {
+        padding: 20px;
+    }
+}
