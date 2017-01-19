@@ -14,13 +14,13 @@ $(document).ready(function () {
 
         if(number !== undefined && number != "" && number != " ") {
 
-            if(isNaN(number) || number.match(/\d/g).length !== 10) {
-                $($('.error-message')[0]).fadeIn(100);
-                return;
-            } else {
+            // if(isNaN(number)) {
+            //     $($('.error-message')[0]).fadeIn(100);
+            //     return;
+            // } else {
                 $('#startForm').submit();
 
-            }
+            // }
         } else {
             $($('.error-message')[0]).fadeIn(100);
         }
