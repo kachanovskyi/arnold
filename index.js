@@ -5,7 +5,7 @@ $(document).ready(function () {
             $(this).replaceWith(div);
             $($('.success-message')[0]).fadeIn("slow");
         });
-        return false;
+        // return false;
     });
 
     $('#start').click(function () {
@@ -13,14 +13,15 @@ $(document).ready(function () {
         var number = $('#phone').val();
 
         if(number !== undefined && number != "" && number != " ") {
+            console.log($('#startForm'));
 
-            // if(isNaN(number)) {
-            //     $($('.error-message')[0]).fadeIn(100);
-            //     return;
-            // } else {
+            if(isNaN(number)) {
+                $($('.error-message')[0]).fadeIn(100);
+                return;
+            } else {
                 $('#startForm').submit();
 
-            // }
+            }
         } else {
             $($('.error-message')[0]).fadeIn(100);
         }
