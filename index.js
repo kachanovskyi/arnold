@@ -28,9 +28,9 @@ $(document).ready(function () {
     $('#startForm').submit(function(e){
         e.preventDefault();
         $.ajax({
-            // url: 'http://requestb.in/t29bn7t2',
+            // url: 'http://requestb.in/15h1yjz1',
             url: 'https://fitness.botscrew.com/add',
-            data: {data: number},
+            data: { phoneNumber: number },
             type: 'POST',
             crossDomain: true,
             dataType: 'jsonp'
