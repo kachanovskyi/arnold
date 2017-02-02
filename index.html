@@ -5,24 +5,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Arnold Trainer</title>
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
 </head>
 <body>
-  <div class="login-page">
-    <p class="top-heading">ARNOLD</p>
-    <div class="form">
-      <form name="contactForm" id="startForm" method="POST" action="https://fitness.botscrew.com/add" target="mock_frame">
-        <h1>I train with Arnold</h1>
-        <p>Ready for an AI fitness trainer powered by rock hard pecs? Pack your gym bag, you’ve got a big workout ahead!</p>
-        <div id="inputBlock">
-          <input id="phone" name="phoneNumber" type="text" placeholder="Enter your phone number"/>
-          <button type="button" id="start">Start</button>
+  <div class="slide-1">
+    <div class="login-page">
+      <div class="top-heading">
+        <p>Arnold</p>
+      </div>
+      <div class="form">
+        <form name="contactForm" id="startTopForm" method="POST" action="https://fitness.botscrew.com/add" target="mock_frame">
+        <!--<form name="contactTopForm" id="startTopForm" method="POST" action="http://requestb.in/1m0w1s51" target="mock_frame">-->
+          <h1 class="gradient">I train with Arnold <img class="inline-emoji" src="images/bicep_emoji.png"></h1>
+          <p>Ready for an AI fitness trainer powered by rock hard pecs? Pack your gym bag, you’ve got a big workout ahead!</p>
+          <div class="inputBlock">
+            <input id="phoneTop" name="phoneNumber" type="text" placeholder="Enter your phone number"/>
+            <button type="button" id="startTop">Start</button>
+          </div>
+          <div class="error-message">
+            <img src="images/warning.svg">
+            <p>Oops! Please enter correct phone number</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-2">
+    <div class="row">
+      <div class="arnold-example col-md-offset-2 col-md-4">
+        <img src="images/iphone_example.png">
+      </div>
+      <div class="col-md-5 benefits-container">
+        <div class="arnold-benefits">
+          <h1 class="gradient">Just keep going. <img class="inline-emoji" src="images/imagine_emoji.png"></h1>
+          <p>Ready for an AI fitness trainer powered by rock hard pecs? Pack your gym bag, you’ve got a big workout ahead!</p>
+          <ul class="benefits-list">
+            <li><img class="inline-emoji" src="images/list-style.png">Personalized program</li>
+            <li><img class="inline-emoji" src="images/list-style.png">Immediate interaction</li>
+            <li><img class="inline-emoji" src="images/list-style.png">Motivational support</li>
+          </ul>
         </div>
-        <div class="error-message">
-          <img src="images/warning.svg">
-          <p>Oops! Please enter correct phone number</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-3">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-4 benefits-container">
+        <div class="arnold-benefits">
+          <h1 class="gradient">Just do it! <img class="inline-emoji" src="images/medal_emoji.png"></h1>
+          <p>Ready for an AI fitness trainer powered by rock hard pecs? Pack your gym bag, you’ve got a big workout ahead!</p>
+          <ul class="benefits-list">
+            <li><img class="inline-emoji" src="images/list-style.png">Personalized program</li>
+            <li><img class="inline-emoji" src="images/list-style.png">Immediate interaction</li>
+            <li><img class="inline-emoji" src="images/list-style.png">Motivational support</li>
+          </ul>
         </div>
-      </form>
+      </div>
+      <div class="arnold-example col-md-4">
+        <img src="images/iphone_example.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-4">
+    <div class="top">
+      <h1>No pain. No gain. <img class="inline-emoji" src="images/cup_emoji.png"></h1>
+    </div>
+    <div class="middle">
+      <h1 class="gradient">They are talking about me <img class="inline-emoji" src="images/thought_emoji.png"></h1>
+      <p>Ready for an AI fitness trainer powered by rock hard pecs?</p>
+      <p>Pack your gym bag, you’ve got a big workout ahead!</p>
+    </div>
+    <div class="bottom">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-2 writing"><img src="images/Union.png"></div>
+        <div class="col-md-2 writing"><img src="images/Union.png"></div>
+        <div class="col-md-2 writing"><img src="images/Union.png"></div>
+        <div class="col-md-2 writing"><img src="images/Union.png"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-5">
+    <div class="login-page">
+      <div class="form">
+        <!--<form name="contactBottomForm" id="startBottomForm" method="POST" action="http://requestb.in/1m0w1s51" target="mock_frame">-->
+        <form name="contactForm" id="startBottomForm" method="POST" action="https://fitness.botscrew.com/add" target="mock_frame">
+          <h1 class="gradient">Call to action is here <img class="inline-emoji" src="images/fire_emoji.png"></h1>
+          <p>Ready for an AI fitness trainer powered by rock hard pecs? Pack your gym bag, you’ve got a big workout ahead!</p>
+          <div class="inputBlock">
+            <input id="phoneBottom" name="phoneNumber" type="text" placeholder="Enter your phone number"/>
+            <button type="button" id="startBottom">Start</button>
+          </div>
+          <div class="error-message">
+            <img src="images/warning.svg">
+            <p>Oops! Please enter correct phone number</p>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

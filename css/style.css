@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 48px !important;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+}
+h1.gradient {
+    background: -webkit-linear-gradient(90deg, #38EC83 0%, #30BB6A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.inline-emoji {
+    width: 40px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.arnold-example > img {
+    max-width: 400px;
+}
+.arnold-benefits {
+    padding: 100px 100px 0 30px;
+}
+    .arnold-benefits .benefits-list {
+        padding-top: 30px;
+        padding-left: 0;
+        font-size: 21px;
+        font-weight: 600;
+        /*line-height: 130%;*/
+        display: table;
+    }
+        .arnold-benefits .benefits-list > li {
+            display: block;
+            /*list-style-type: none;*/
+            list-style-image: url("../images/list-style.png");
+            margin: 10px 0;
+            /*vertical-align: middle;*/
+        }
+            .arnold-benefits .benefits-list > li .inline-emoji {
+                /*vertical-align: middle;*/
+                margin-bottom: 4px;
+                margin-right: 12px;
+            }
+
+.top-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 80px;
+    padding: 25px 16%;
+    border-bottom: 1px solid #F2F2F2;
+}
+    .top-heading > p {
+        font-size: 21px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(90deg, #38EC83 0%, #30BB6A 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+    }
+
+.login-page {
+    width: 640px;
+    margin: auto;
+    padding: 10% 0 0;
+}
+
+/*Slide-1 styles*/
+.slide-1 {
+    min-height: 100vh;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    max-width: 640px;
+    padding: 45px;
+    text-align: center;
+}
+    .form h1 {
+        margin: 20px auto;
+    }
+    .form p {
+        margin: 0 auto 50px auto;
+    }
+    .form input {
+        font-family: "Nunito", sans-serif;
+        outline: 0;
+        width: 340px;
+        height: 68px;
+        padding: 15px 20px;
+        box-sizing: border-box;
+        font-size: 21px;
+        font-weight: 600;
+        border: solid #38EC83;
+        border-width: 1px 0 1px 1px;
+        border-radius: 4px 0 0 4px;
+        vertical-align: middle;
+    }
+    .form input::-webkit-input-placeholder {
+        color: rgba(0, 0, 0, 0.3);
+        font-weight: 600;
+    }
+    .form button {
+        font-weight: bold;
+        outline: 0;
+        background: #38EC83;
+        display: inline-block;
+        width: 180px;
+        height: 68px;
+        border: 0;
+        padding: 14px 15px 16px 15px;
+        margin-left: -5px;
+        color: #FFFFFF;
+        font-size: 21px;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        border-radius: 0 4px 4px 0;
+        vertical-align: middle;
+    }
+    .form button:hover,.form button:active,.form button:focus {
+        background: #30BB6A;
+    }
+    .form .success-message {
+        display: inline-block;
+        width: 520px;
+        height: 68px;
+        background: #38EC83;
+        border-radius: 4px;
+    }
+    .form .success-message p {
+        font-size: 21px;
+        margin: 22px;
+        color: #FFFFFF;
+    }
+    .form .error-message {
+        height:52px;
+        color: #FFFFFF;
+        background-color: #EB5757;
+        display: none;
+        margin: 12px auto;
+        width: 520px;
+        border-radius: 4px;
+    }
+        .form .error-message > img {
+            vertical-align: sub;
+            margin-right: 20px;
+        }
+        .form .error-message > p {
+            display: inline-block;
+            padding-top: 16px;
+            font-size: 16px;
+        }
+/*Slide-1 styles end*/
+
+/*Slide-2 styles begin*/
+.slide-2 {
+    width: 100%;
+    padding-top: 100px;
+    background: #FCFCFC;
+    border: solid #EFEFEF;
+    border-width: 1px 0;
+}
+    .slide-2 .benefits-container {
+        padding-left: 0;
+    }
+        .slide-2 .arnold-example {
+            padding-right: 30px;
+        }
+            .slide-2 .arnold-benefits .inline-emoji {
+                margin-bottom: 15px;
+                margin-left: 0;
+            }
+/*Slide-2 styles end*/
+
+/*Slide-3 styles begin*/
+.slide-3 {
+    width: 100%;
+    padding-top: 100px;
+}
+    .slide-3 .benefits-container {
+        padding-right: 10px;
+    }
+        .slide-3 .arnold-benefits {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .slide-3 .arnold-example {
+            padding-left: 30px;
+        }
+/*Slide-3 styles end*/
+
+/*Slide-4 styles begin*/
+.slide-4 {
+    width: 100%;
+    text-align: center;
+    background-color: #FCFCFC;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #EFEFEF;
+}
+    .slide-4 .top {
+        background-color: #38EC83;
+        padding: 100px 0;
+    }
+        .slide-4 .top h1 {
+            color: #FFFFFF !important;
+        }
+    .slide-4 .middle {
+        padding-top: 80px;
+        margin-bottom: 50px;
+        border-top: 1px solid #EFEFEF;
+    }
+        .slide-4 .middle p {
+            margin: 0;
+        }
+
+        .slide-4 .bottom .writing {
+            padding: 0 30px;
+        }
+/*Slide-4 styles end*/
+
+/*Slide-5 styles begin*/
+.slide-5 {
+    width: 100%;
+    text-align: center;
+}
+    .slide-5 .login-page {
+        padding: 0;
+    }
+    .slide-5 .form {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+/*Slide-5 styles end*/
+
+@media (max-width: 566px) {
+    .inputBlock {
+        height: 54px;
+    }
+    .slide-1 {
+        width: 100%;
+    }
+    .slide-1 .login-page {
+        width: 100%;
+        padding-top: 33%;
+    }
+    .form h1 {
+        font-size: 40px;
+    }
+    .form p {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    .form input {
+        width: 69%;
+        height: 100%;
+        padding: 12px 10px;
+        margin: 0;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+    .form button {
+        width: 30%;
+        font-size: 16px;
+        height: 100%;
+        padding: 0;
+        vertical-align: middle;
+    }
+    .form .success-message {
+        width: 99%;
+        height: auto;
+    }
+    .form .error-message {
+        margin-top: 10px;
+        width: 97%;
+        height: auto;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+        .form .error-message > img {
+            margin: 12px 0 0 0;
+        }
+       .form .error-message > p {
+           margin-bottom: 0;
+           padding-bottom: 12px;
+       }
+}
+
+@media (max-width: 460px) {
+    .form {
+        padding: 20px;
+    }
+}
