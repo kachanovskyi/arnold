@@ -1,0 +1,24 @@
+<svg width="250" height="50" viewBox="0 0 250 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>wired</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7188 9)" figma:type="canvas">
+<g id="wired" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path1_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path2_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path3_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path4_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path5_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+<use xlink:href="#path6_fill" transform="translate(7188 -9)" fill="#000000" fill-opacity="0.1" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 50 50L 0 50L 0 0L 50 0L 50 50ZM 46.499 7.75002L 40 7.75002L 35.249 35L 29.7485 9.74998C 29.4995 7.99995 28.75 7.75002 27.2485 7.75002L 23.75 7.75002C 22.251 7.75002 21.499 8.24997 21.25 9.74998L 15.7495 35L 10.9985 7.75002L 3.99902 7.75002L 10.7495 40.5C 11.001 42 11.5015 42.25 13.2495 42.25L 18.0005 42.25C 19.4995 42.25 20 42 20.5005 40.5L 25.7495 16.75L 30.9985 40.5C 31.25 42 31.7505 42.25 33.4985 42.25L 38.0005 42.25C 39.4995 42.25 40.2515 42 40.5005 40.5L 46.499 7.75002Z"/>
+<path id="path1_fill" d="M 86.748 36.5L 86.748 42.25L 62.998 42.25L 62.998 36.5L 71.499 36.5L 71.499 13.5L 62.998 13.5L 62.998 7.75002L 86.748 7.75002L 86.748 13.5L 78.2495 13.5L 78.2495 36.5L 86.748 36.5Z"/>
+<path id="path2_fill" d="M 118 13.75L 118 23.25L 129.25 23.5C 130.752 23.5 131.25 23.25 131.501 23C 132.002 22.5 132.5 21.5 132.5 18.5C 132.5 15.5 132.002 14.7501 131.501 14.25C 131.25 14 130.752 13.75 129.25 13.75L 118 13.75Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 99.751 50L 149.751 50L 149.751 0L 99.751 0L 99.751 50ZM 133 42C 132.5 39.75 132.251 37 132.251 33.25C 132.251 30.75 132 30 131.25 29.5C 130.5 28.9999 129.751 28.75 127.751 28.75L 118 28.75L 118 42.25L 111.001 42.25L 111.001 7.75002L 132.002 7.75002C 134.751 7.75002 136.501 8.25005 137.5 9.25003C 139.001 10.5 139.751 12.5 139.751 17.5C 139.751 23.75 138 25.5 134.001 26.25C 137.5 27 139.001 27.75 139.25 32.75C 139.25 37 139.5 40.2499 139.751 42L 133 42Z"/>
+<path id="path4_fill" d="M 234.001 25C 234.001 32.5 233.501 34.25 232.002 35.25C 231.001 36 229.751 36.25 227.251 36.25L 217.751 36.25L 217.751 13.5L 227.251 13.5C 229.751 13.5 231.001 13.5 232.002 14.5C 233.501 15.75 234.001 17.5 234.001 25Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 249.751 50L 199.751 50L 199.751 0L 249.751 0L 249.751 50ZM 210.752 7.75002L 210.752 42.25L 227.751 42.25C 232.5 42.25 235.251 41.5 237.251 39.75C 239.751 37.5 241.001 33.5 241.001 25C 241.001 16.5 239.751 12.5 237.251 10.25C 235.251 8.49998 232.5 7.75002 227.751 7.75002L 210.752 7.75002Z"/>
+<path id="path6_fill" d="M 158.999 7.75002L 158.999 13.5L 163.75 13.5L 163.75 36.5L 158.999 36.5L 158.999 42.25L 188.75 42.25L 188.75 30.5L 182.5 30.5L 182.5 36.5L 170.249 36.5L 170.249 27.25L 179.749 27.25L 179.749 21.75L 170.249 21.75L 170.249 13.5L 182.249 13.5L 182.249 18.75L 188.499 18.75L 188.499 7.75002L 158.999 7.75002Z"/>
+</defs>
+</svg>
