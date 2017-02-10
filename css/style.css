@@ -8,6 +8,21 @@ body {
     overflow-x: hidden;
 }
 
+.navbar.navbar-default {
+    border-radius: 0;
+    background-color: #FFFFFF;
+}
+.navbar.navbar-default .container-fluid {
+    padding: 15px 30px 15px 16%;
+}
+.nav>li>a {
+    font-size: 21px;
+    font-weight: 300;
+    background: -webkit-linear-gradient(90deg, #38EC83 0%, #30BB6A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h1 {
     color: #FFFFFF;
     font-size: 48px !important;
@@ -83,7 +98,8 @@ p {
     padding: 25px 16%;
     border-bottom: 1px solid #F2F2F2;
 }
-    .top-heading > p {
+    .top-heading > p,
+    .navbar-brand > p {
         font-size: 21px;
         font-weight: 600;
         background: -webkit-linear-gradient(90deg, #38EC83 0%, #30BB6A 100%);
@@ -322,7 +338,7 @@ p {
         display: none;
     }
     .top-heading {
-        text-align: center;
+        /*text-align: center;*/
     }
     .table-display {
         display: block;
