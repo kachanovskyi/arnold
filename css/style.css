@@ -114,7 +114,7 @@ p {
 .login-page {
     width: 640px;
     margin: auto;
-    padding: 10% 0 0;
+    padding: 6% 0 0;
 }
 
 /*Slide-1 styles*/
@@ -335,7 +335,8 @@ p {
         text-align: center;
     }
     .login-page {
-        padding-top: 13%;
+        padding-top: 0;
+        margin-top: -15px;
     }
     .inline-emoji {
         display: none;
@@ -456,6 +457,10 @@ p {
 }
 
 @media (max-width: 566px) {
+    .sub-heading:before {
+        content: '\a';
+        white-space: pre;
+    }
     .inputBlock {
         height: 54px;
     }
@@ -464,7 +469,8 @@ p {
     }
     .slide-1 .login-page {
         width: 100%;
-        padding-top: 33%;
+        padding-top: 0;
+        margin-top: -30px;
     }
     .form h1 {
         font-size: 40px;
